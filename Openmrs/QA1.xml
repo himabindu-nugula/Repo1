@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+	<test name="Test+FF">
+		<parameter name="url" value="https://demo.openmrs.org" />
+		<parameter name="pname" value="john Doe" />
+		<parameter name="username" value="Admin" />
+		<parameter name="password" value="Admin123" />
+		<parameter name="patientName" value="James Brown" />
+		<parameter name="browserType" value="FF" />
+		<parameter name="serviceName" value="Pediatrics" />
+		<parameter name="gName" value="Dave1" />
+		<parameter name="mName" value="" />
+		<parameter name="fName" value="Brown" />
+		<parameter name="gender" value="male" />
+		<parameter name="dBirth" value="15" />
+		<parameter name="mBirth" value="04" />
+		<parameter name="yBirth" value="2005" />
+
+		<classes>
+			<class name="mavenEx.Openmrs.OpenMRSTest1" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
