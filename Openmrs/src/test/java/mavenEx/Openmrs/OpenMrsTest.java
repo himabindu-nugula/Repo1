@@ -18,6 +18,7 @@ public class OpenMrsTest extends BaseClass {
 	{
 		HelperClass hc= new HelperClass(driver);
 		FindAPatientRecordPage fppage= new FindAPatientRecordPage(driver);
+		System.out.println("In Vefiry Find a Patient Record");
 		hc.login(username, password);
 		fppage.navigateToFindAPatientPage();
 		boolean result = fppage.findPatientRecord(pname);
